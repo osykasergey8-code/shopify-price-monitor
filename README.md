@@ -2,6 +2,14 @@
 
 Tracks prices, discounts and stock of competitor Shopify stores every day and turns the changes into a client-ready Excel report, with optional Telegram alerts and Google Sheets sync.
 
+![Excel dashboard](docs/excel_dashboard.png)
+
+![Current prices](docs/excel_current_prices.png)
+
+![Biggest price moves](docs/chart_changes.png)
+
+A sample report with real public data from 5 specialty coffee stores is in [examples/](examples/).
+
 **What the client gets every morning**
 
 - **Dashboard** with stores tracked, price drops, price increases, out-of-stock items and a chart of the biggest price moves
