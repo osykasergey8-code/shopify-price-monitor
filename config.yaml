@@ -1,0 +1,19 @@
+# Stores to monitor. Any Shopify store works: name + homepage URL.
+# Test them first with:  python -m price_monitor check
+# Stores that answer FAIL are not on Shopify (or block the feed): remove or replace them.
+stores:
+  - name: Death Wish Coffee
+    url: https://www.deathwishcoffee.com
+  - name: Onyx Coffee Lab
+    url: https://onyxcoffeelab.com
+  - name: Black Rifle Coffee
+    url: https://www.blackriflecoffee.com
+  - name: Counter Culture
+    url: https://counterculturecoffee.com
+  - name: Partners Coffee
+    url: https://www.partnerscoffee.com
+
+report_title: Specialty Coffee — Competitor Price Monitor
+delay_seconds: 1.5        # pause between pages, keeps the load on stores polite
+database: data/prices.db
+output_dir: reports
